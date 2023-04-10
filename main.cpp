@@ -1,5 +1,15 @@
 #include <iostream>
+using namespace std;
 
-int main() {
-  std::cout << "Hello World!\n";
-}
+//tree
+struct node {
+  int data;
+  node* left;
+  node* right;
+
+  node(int data1) {
+    data = data1;
+    left = NULL;
+    right = NULL;
+      }
+};
